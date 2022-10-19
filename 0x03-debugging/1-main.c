@@ -10,12 +10,10 @@ int main(void)
         
 	int i;
 
-	positive_or_negative(i);
-
         printf("Infinite loop incoming :(\n");
 
         i = 0;
-
+	while (i < 0)
 	  /**
         *{
         *    putchar(i = 0);
