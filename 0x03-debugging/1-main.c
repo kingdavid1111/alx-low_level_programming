@@ -1,3 +1,6 @@
+#ifndef main_c
+#define main_c
+
 #include <stdio.h>
 
 /**
@@ -12,7 +15,6 @@ int main(void)
         printf("Infinite loop incoming :(\n");
 
         i = 0;
-	  positive_or_negative(i);
 	  /**
         *{
         *    putchar(i);
