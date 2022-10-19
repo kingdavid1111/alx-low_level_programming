@@ -10,6 +10,8 @@ int main(void)
         
 	int i;
 
+	positive_or_negative(i);
+
         printf("Infinite loop incoming :(\n");
 
         i = 0;
