@@ -1,3 +1,6 @@
-30.2 KB
+
+#!/bin/bash
+gcc -c *.c && ar -rc liball.a *.o
+
 
 
