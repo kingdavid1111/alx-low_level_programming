@@ -1,6 +1,14 @@
-#ifndef PI_H
-#define PI_H
+#include <stdio.h>
 
-#define PI 3.14159265359
+/**
+ * main - Prints the name of the file of the program
+ *        was compiled from, followed by a new line.
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+	printf("%s\n", __FILE__);
 
-#endif
+	return (0);
+}
